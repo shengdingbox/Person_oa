@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: person_oa
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: Administrator
+Implementation-Vendor-Id: com.yiqijava.person
+Build-Jdk: 1.8.0_202
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/person_oa
+Created-By: Maven Integration for Eclipse
+
