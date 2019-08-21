@@ -36,8 +36,11 @@ public class BuildingServlceImpl implements BuildingService {
 		int pagenum = pageInfo.getPageNum();
 		//所有页码
 		int[] nums = pageInfo.getNavigatepageNums();
-				
+		
 		return new Page<Building>(pages, nextPage, prePage, pagenum, builds,nums);
+		//new Page<Building>();
+		
+		
 	}
 	@Override
 	public List<Building> getBuilds() {
