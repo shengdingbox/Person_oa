@@ -22,7 +22,7 @@ public class BuildingServlceImpl implements BuildingService {
 	
 
 	@Override
-	public Page<Building> findByPage(int pageCode) {
+	public Page<Building> findByPage (int pageCode) {
 		PageHelper.startPage(pageCode, 5);
 		List<Building> builds = build.getBuilds();
 		PageInfo<Building> pageInfo = new PageInfo<>(builds, 5);
